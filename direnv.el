@@ -59,8 +59,6 @@
       (message "Applied environment: %s"
                (mapconcat (lambda (v) (format "%s" (car v))) json " ")))))
 
-(add-hook 'rust-mode-hook #'direnv-apply)
-
 ;;; Used to advice `start-process' and inject the environment and
 ;;; `exec-path'
 (defun direnv-start-process-advice (orig-fun &rest args)
