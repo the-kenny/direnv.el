@@ -5,6 +5,9 @@
 started from Emacs (`M-x compile`, `M-x eshell`, `M-x run-python`,
 ...).
 
+Please note that this software is very young wasn't tested by anyone
+me. Expect rough edges and breakage.
+
 # Usage
 
 Please refer to `man direnv` on how to set up `direnv`.
