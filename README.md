@@ -42,3 +42,8 @@ automatically apply a `nix-shell` environment from a `default.nix` or
 `shell.nix`:
 
     use nix
+
+## Similar Projects
+
+[direnv-el](https://github.com/jml/direnv-el) follows a similar goal.
+We're in the process of figuring out if we want to merge our work.
