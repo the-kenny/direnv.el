@@ -10,9 +10,9 @@ started from Emacs (`M-x compile`, `M-x eshell`, `M-x run-python`,
 Please refer to `man direnv` on how to set up `direnv`.
 
 After adding `direnv.el` to `load-path` (or installing it via `M-x
-package-install`) open any file inside a folder with a `.envrc` and
-run: `M-x direnv-apply`. This will call out to `direnv` and apply the
-generated environment to the current buffer.
+package-install`, *not* available yet) open any file inside a folder
+with a `.envrc` and run: `M-x direnv-apply`. This will call out to
+`direnv` and apply the generated environment to the current buffer.
 
 You can also add a hook for any major mode to automate this process.
 For example, I use `direnv` extensively for `rust-mode` to
